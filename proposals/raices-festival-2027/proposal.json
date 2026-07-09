@@ -1,0 +1,934 @@
+{
+  "meta": {
+    "slug": "raices-festival-2027",
+    "client": "Festival Raíces",
+    "project": "Festival Raíces 2027 — Música y Culturas del Sur",
+    "tender": {
+      "id": "LIC-2027-RAICES-014",
+      "entity": "Corporación Cultural Biobío",
+      "dueDate": "2026-09-30"
+    },
+    "currency": "CLP",
+    "date": "2026-07-09",
+    "version": "v1.0"
+  },
+  "brand": {
+    "name": "Raíces",
+    "tagline": "Música y culturas del sur",
+    "colors": {
+      "bg": "#0C120F",
+      "bgAlt": "#152018",
+      "ink": "#F2EFE6",
+      "inkSoft": "#9DAA9E",
+      "line": "#26332A",
+      "primary": "#E8A13C",
+      "secondary": "#2FB6A3",
+      "accent": "#D2553B",
+      "good": "#6FCF97"
+    },
+    "radius": 16
+  },
+  "brief": {
+    "summary": "Festival Raíces 2027 licita la producción integral del festival de música, gastronomía y culturas más grande del sur de Chile, a realizarse en Parque Bicentenario de Concepción los días 16 y 17 de enero de 2027, con 12.000 asistentes por jornada y transmisión en vivo.",
+    "objectives": [
+      "Diseñar y ejecutar la dirección creativa y curatoría de contenidos para un festival masivo de alcance regional.",
+      "Garantizar experiencia inmersiva en música, gastronomía y culturas locales del sur de Chile.",
+      "Asegurar operación técnica y seguridad integral para evento masivo (24.000 asistencias totales).",
+      "Activar presencia de marca del patrocinador de forma integrada al concepto del festival.",
+      "Entregar transmisión en vivo de calidad profesional y gestión de permisos y contingencia climática."
+    ],
+    "audience": {
+      "size": 12000,
+      "profile": "Público pagante: asistentes interesados en música, gastronomía y culturas del sur de Chile."
+    },
+    "venue": {
+      "name": "Parque Bicentenario de Concepción",
+      "city": "Concepción",
+      "date": "2027-01-16",
+      "format": "Festival masivo al aire libre, acceso pagado, dos escenarios, aldea gastronómica, transmisión en vivo"
+    },
+    "scope": [
+      "Dirección creativa, curatoría de contenidos y guion del festival",
+      "Dos escenarios principales (Escenario Sur y Escenario Río)",
+      "Aldea gastronómica con food trucks y cocinerías regionales",
+      "Activaciones de marca del patrocinador (stands experienciales)",
+      "Producción técnica: audio line-array, iluminación, pantallas LED, transmisión en vivo",
+      "Escenografía, ambientación y señalética del recinto",
+      "Seguridad, control de accesos y aforo para evento masivo",
+      "Baños, limpieza, energía (generadores), agua y logística",
+      "Gestión de permisos (municipal, Intendencia, Salud, Bomberos, SEC)",
+      "Plan de contingencia climática y sostenibilidad"
+    ],
+    "evaluation": [
+      {
+        "criterion": "Propuesta creativa y curatoría",
+        "weight": 0.25
+      },
+      {
+        "criterion": "Factibilidad técnica y de producción (evento masivo)",
+        "weight": 0.25
+      },
+      {
+        "criterion": "Seguridad, aforo y plan de contingencia",
+        "weight": 0.2
+      },
+      {
+        "criterion": "Presupuesto y eficiencia",
+        "weight": 0.2
+      },
+      {
+        "criterion": "Experiencia y antecedentes del equipo",
+        "weight": 0.1
+      }
+    ]
+  },
+  "concept": {
+    "name": "RAÍCES · El Territorio que Late",
+    "statement": "Raíces 2027 no monta un festival sobre el Parque Bicentenario: convierte el parque en el territorio del sur de Chile —tierra, río, fuego y viento— latiendo durante dos jornadas para 24.000 personas. Cada elemento es a la vez metáfora creativa y disciplina operativa: la tierra sostiene la ingeniería de seguridad y aforo, el río ordena el flujo entre los dos escenarios, el fuego reúne la cocina regional y la marca patrocinadora en torno a un mismo fogón, y el viento lleva la música —vía transmisión en vivo— más allá de las rejas del parque, incluso cuando el clima de enero obliga a cambiar el plan. Un concepto que se dibuja en una lámina y se ejecuta con un protocolo: la creatividad y la seguridad nacen del mismo territorio, no de dos oficinas distintas.",
+    "pillars": [
+      {
+        "title": "Tierra Firme",
+        "desc": "El cimiento invisible del festival: aforo modelado por zona para 12.000 personas/jornada, rutas de evacuación certificadas, brigadas de emergencia, generadores redundantes y permisos (municipal, Delegación Presidencial, Salud, Bomberos, SEC) cerrados antes del primer acorde. La fiesta vuela porque el suelo bajo los pies no tiembla.",
+        "icon": "◈"
+      },
+      {
+        "title": "Cauce Doble",
+        "desc": "Escenario Sur y Escenario Río programados en contrapunto: mientras uno suena, el otro ya está montado. El público se reparte como un río que se ramifica —sin cuellos de botella ni sobrecarga— y la inversión técnica (line-array, LED, rigging) se comparte entre ambos frentes: más festival por cada peso invertido.",
+        "icon": "⭓"
+      },
+      {
+        "title": "Fogón Raíces",
+        "desc": "La aldea gastronómica se ordena alrededor de un fogón central donde cocinerías del Biobío, saberes locales y la marca patrocinadora comparten el fuego: bebida de bienvenida, relatos de quienes cocinan y una activación de marca que se sirve como parte del menú cultural, no como un stand aparte.",
+        "icon": "❖"
+      },
+      {
+        "title": "Viento del Sur",
+        "desc": "Transmisión en vivo multicámara que lleva Raíces más allá del parque —streaming, drones, contenido para redes— mientras un protocolo climático (viento, lluvia, calor de enero) mantiene un plan B ensayado para cada escenario, listo para activarse sin que el público note el cambio de guion.",
+        "icon": "✦"
+      }
+    ],
+    "narrative": [
+      "Llegada — Accesos escalonados por sector, señalética con el nombre de cada elemento y control de aforo desde el primer paso: 12.000 personas entran sin fila única ni cuello de botella.",
+      "Tierra Firme — Bajo la fiesta, la ingeniería que no se ve: puestos médicos, brigadas, generadores redundantes y permisos ya cerrados sostienen el terreno para que nadie note el peso de 24.000 asistencias totales.",
+      "Cauce Doble — Escenario Sur y Escenario Río laten en contrapunto: cuando uno cierra su set, el otro ya está listo, y el público fluye entre ambos como agua que encuentra su cauce.",
+      "Fogón Raíces — En la aldea gastronómica, cocinerías regionales y la marca patrocinadora comparten el fuego central: la activación de marca se sirve, se prueba y se comparte, no se exhibe.",
+      "Viento del Sur — Cámaras, drones y streaming llevan el festival más allá del parque mientras un protocolo climático vigila el cielo de enero, listo para mover cualquier acto sin apagar la fiesta.",
+      "Cierre y amanecer — Ambos escenarios cierran sincronizados la primera jornada; al amanecer del 17 de enero, el mismo territorio —mismo rigor, misma raíz— recibe a otros 12.000."
+    ]
+  },
+  "program": [
+    {
+      "time": "13:00",
+      "title": "Apertura de puertas",
+      "desc": "Ingreso, control de aforo y activaciones de bienvenida."
+    },
+    {
+      "time": "14:00",
+      "title": "Escenario Río — emergentes del sur",
+      "desc": "Bloque de bandas y solistas regionales."
+    },
+    {
+      "time": "15:30",
+      "title": "Aldea gastronómica",
+      "desc": "Cocinerías y food trucks del Biobío en pleno."
+    },
+    {
+      "time": "17:00",
+      "title": "Escenario Sur — bloque central",
+      "desc": "Artistas nacionales; transmisión en vivo."
+    },
+    {
+      "time": "19:00",
+      "title": "Ritual de las raíces",
+      "desc": "Momento escenográfico de conexión entre ambos escenarios."
+    },
+    {
+      "time": "20:30",
+      "title": "Escenario Sur — headliner",
+      "desc": "Cabeza de cartel de la jornada."
+    },
+    {
+      "time": "22:00",
+      "title": "Cierre y salida asistida",
+      "desc": "Plan de evacuación y flujo de salida por zonas."
+    }
+  ],
+  "scenography": {
+    "summary": "Recinto de 80×60 m leído como el territorio del concept: acceso escalonado por el sur junto al puesto de comando Tierra Firme, un sendero-cauce central que reparte el flujo del público hacia los dos frentes —Escenario Sur y Escenario Río, cada uno con su pantalla LED suspendida en contrapunto— y, al norte, el Fogón Raíces con la aldea gastronómica, la activación de marca y la barra de bienvenida, cerrando en una zona de estar y la torre de transmisión Viento del Sur.",
+    "zones": [
+      {
+        "id": "entrance-sur",
+        "name": "Acceso Principal",
+        "kind": "entrance",
+        "desc": "Acceso escalonado por sector; control de aforo y acreditación desde el primer paso, sin fila única ni cuello de botella.",
+        "pos": [
+          0,
+          0,
+          -28
+        ],
+        "size": [
+          18,
+          3,
+          3
+        ],
+        "color": "#E7C978"
+      },
+      {
+        "id": "entrance-oeste",
+        "name": "Acceso Sector Escenario Sur",
+        "kind": "entrance",
+        "desc": "Acceso secundario alineado al Escenario Sur; reparte al público como un río que se ramifica.",
+        "pos": [
+          -38,
+          0,
+          -6
+        ],
+        "size": [
+          3,
+          3,
+          10
+        ],
+        "color": "#E7C978"
+      },
+      {
+        "id": "entrance-este",
+        "name": "Acceso Sector Escenario Río",
+        "kind": "entrance",
+        "desc": "Acceso espejo alineado al Escenario Río, equilibra el aforo entre ambos frentes.",
+        "pos": [
+          38,
+          0,
+          -6
+        ],
+        "size": [
+          3,
+          3,
+          10
+        ],
+        "color": "#E7C978"
+      },
+      {
+        "id": "tierra-firme",
+        "name": "Puesto de Comando Tierra Firme",
+        "kind": "installation",
+        "desc": "Sala de control de aforo, brigadas de emergencia, generadores redundantes y gestión de permisos (municipal, Delegación Presidencial, Salud, Bomberos, SEC): el cimiento invisible del festival.",
+        "pos": [
+          -24,
+          0,
+          -24
+        ],
+        "size": [
+          10,
+          3,
+          6
+        ],
+        "color": "#7A5230"
+      },
+      {
+        "id": "escenario-sur",
+        "name": "Escenario Sur",
+        "kind": "stage",
+        "desc": "Frente principal del festival: line-array, rigging e iluminación para las cabezas de cartel.",
+        "pos": [
+          -26,
+          0,
+          -4
+        ],
+        "size": [
+          16,
+          8,
+          12
+        ],
+        "color": "#2F6B7A"
+      },
+      {
+        "id": "pantallas-sur",
+        "name": "Pantallas LED Escenario Sur",
+        "kind": "screen",
+        "desc": "LED suspendido sobre el Escenario Sur para contenido, transmisión y refuerzo visual del show.",
+        "pos": [
+          -26,
+          9,
+          -4
+        ],
+        "size": [
+          12,
+          4,
+          1
+        ],
+        "color": "#5BD1C4"
+      },
+      {
+        "id": "escenario-rio",
+        "name": "Escenario Río",
+        "kind": "stage",
+        "desc": "Segundo frente programado en contrapunto: mientras uno suena, este ya está montado y listo.",
+        "pos": [
+          26,
+          0,
+          -4
+        ],
+        "size": [
+          16,
+          7,
+          11
+        ],
+        "color": "#2F8C99"
+      },
+      {
+        "id": "pantallas-rio",
+        "name": "Pantallas LED Escenario Río",
+        "kind": "screen",
+        "desc": "LED suspendido sobre el Escenario Río; la inversión técnica se comparte entre ambos frentes.",
+        "pos": [
+          26,
+          8.5,
+          -4
+        ],
+        "size": [
+          11,
+          3.5,
+          1
+        ],
+        "color": "#5BD1C4"
+      },
+      {
+        "id": "cauce-sendero",
+        "name": "Sendero Cauce Doble",
+        "kind": "installation",
+        "desc": "Eje de circulación central que ordena el flujo del público entre los dos escenarios, sin cuellos de botella.",
+        "pos": [
+          0,
+          0,
+          -4
+        ],
+        "size": [
+          34,
+          0.3,
+          5
+        ],
+        "color": "#3AA7B0"
+      },
+      {
+        "id": "fogon-raices",
+        "name": "Fogón Raíces",
+        "kind": "installation",
+        "desc": "Fogón central de la aldea gastronómica: punto de encuentro de cocinerías regionales, relatos de quienes cocinan y la activación de marca del patrocinador.",
+        "pos": [
+          0,
+          0,
+          10
+        ],
+        "size": [
+          12,
+          2,
+          12
+        ],
+        "color": "#E8622C"
+      },
+      {
+        "id": "cocineria-biobio",
+        "name": "Cocinería Biobío",
+        "kind": "stand",
+        "desc": "Sabores y saberes locales del Biobío, servidos alrededor del fogón.",
+        "pos": [
+          -14,
+          0,
+          10
+        ],
+        "size": [
+          6,
+          3,
+          6
+        ],
+        "color": "#C97A3D"
+      },
+      {
+        "id": "cocineria-mapuche",
+        "name": "Cocinería Raíz Mapuche",
+        "kind": "stand",
+        "desc": "Cocina ancestral de raíz mapuche compartida junto al fuego.",
+        "pos": [
+          14,
+          0,
+          10
+        ],
+        "size": [
+          6,
+          3,
+          6
+        ],
+        "color": "#B96A34"
+      },
+      {
+        "id": "cocineria-costa",
+        "name": "Cocinería Costa Sur",
+        "kind": "stand",
+        "desc": "Mariscos y productos de mar del litoral sur en la aldea gastronómica.",
+        "pos": [
+          0,
+          0,
+          20
+        ],
+        "size": [
+          6,
+          3,
+          6
+        ],
+        "color": "#A85E2E"
+      },
+      {
+        "id": "bar-rio",
+        "name": "Barra Río",
+        "kind": "bar",
+        "desc": "Barra general de bebidas de la aldea, entre cocinerías y zona de estar.",
+        "pos": [
+          -14,
+          0,
+          18
+        ],
+        "size": [
+          5,
+          2.4,
+          4
+        ],
+        "color": "#E7C978"
+      },
+      {
+        "id": "activacion-marca",
+        "name": "Fogón de Marca — Activación Patrocinador",
+        "kind": "installation",
+        "desc": "Activación experiencial del patrocinador integrada al fogón: se sirve y se comparte como parte del menú cultural, no se exhibe como stand aparte.",
+        "pos": [
+          0,
+          0,
+          1.5
+        ],
+        "size": [
+          6,
+          2.5,
+          3
+        ],
+        "color": "#D94F30"
+      },
+      {
+        "id": "bar-bienvenida",
+        "name": "Barra de Bienvenida",
+        "kind": "bar",
+        "desc": "Bebida de bienvenida del patrocinador; primer contacto de marca en el ingreso a la aldea gastronómica.",
+        "pos": [
+          8,
+          0,
+          1.5
+        ],
+        "size": [
+          4,
+          2.4,
+          3
+        ],
+        "color": "#E7A33C"
+      },
+      {
+        "id": "lounge-rio",
+        "name": "Lounge Mirador Río",
+        "kind": "lounge",
+        "desc": "Zona de estar bajo toldos frente al fogón, con vista a ambos escenarios; descanso entre sets.",
+        "pos": [
+          0,
+          0,
+          26.5
+        ],
+        "size": [
+          16,
+          3,
+          6
+        ],
+        "color": "#9AA3B2"
+      },
+      {
+        "id": "torre-viento",
+        "name": "Torre Viento del Sur",
+        "kind": "installation",
+        "desc": "Control de transmisión multicámara, streaming y drones; también centro del protocolo climático que vigila el cielo de enero.",
+        "pos": [
+          -20,
+          0,
+          24
+        ],
+        "size": [
+          5,
+          8,
+          5
+        ],
+        "color": "#6FBF8F"
+      }
+    ]
+  },
+  "budget": {
+    "currency": "CLP",
+    "iva": true,
+    "ivaRate": 0.19,
+    "contingency": 0.05,
+    "margin": 0.1,
+    "groups": [
+      {
+        "id": "direccion",
+        "name": "Dirección Creativa & Curatoría",
+        "lines": [
+          {
+            "concept": "Dirección creativa y concepto integral del festival (fee)",
+            "qty": 1,
+            "unit": 7700000
+          },
+          {
+            "concept": "Curatoría de contenidos (música, gastronomía y culturas del sur)",
+            "qty": 1,
+            "unit": 4250000
+          },
+          {
+            "concept": "Guion y producción de contenidos narrativos del festival",
+            "qty": 1,
+            "unit": 2750000
+          },
+          {
+            "concept": "Productor general (preproducción + 2 jornadas)",
+            "qty": 1,
+            "unit": 5350000
+          },
+          {
+            "concept": "Jefatura y coordinación de producción",
+            "qty": 4,
+            "unit": 950000,
+            "note": "Equipo de 4 coordinadores"
+          }
+        ]
+      },
+      {
+        "id": "escenarios",
+        "name": "Escenarios Sur y Río",
+        "lines": [
+          {
+            "concept": "Escenario Sur: estructura, trussing, techo y deck",
+            "qty": 1,
+            "unit": 27750000,
+            "note": "Fabricación y montaje, 2 jornadas"
+          },
+          {
+            "concept": "Escenario Río: estructura, trussing, techo y deck",
+            "qty": 1,
+            "unit": 23900000,
+            "note": "Fabricación y montaje, 2 jornadas"
+          },
+          {
+            "concept": "Backstage, camarines y zona de artistas (ambos escenarios)",
+            "qty": 1,
+            "unit": 5350000
+          },
+          {
+            "concept": "Barreras de foso y control de público frente a escenario",
+            "qty": 1,
+            "unit": 3500000
+          }
+        ]
+      },
+      {
+        "id": "tecnica",
+        "name": "Producción Técnica: Audio, Iluminación, LED & Transmisión",
+        "lines": [
+          {
+            "concept": "Sistema de audio line-array (2 escenarios, arriendo + técnicos)",
+            "qty": 1,
+            "unit": 29350000,
+            "days": 2
+          },
+          {
+            "concept": "Sistema de iluminación escénica (2 escenarios, arriendo + operación)",
+            "qty": 1,
+            "unit": 24650000,
+            "days": 2
+          },
+          {
+            "concept": "Pantallas LED / IMAG (2 escenarios)",
+            "qty": 1,
+            "unit": 27000000,
+            "days": 2
+          },
+          {
+            "concept": "Transmisión en vivo multicámara + streaming + drones",
+            "qty": 1,
+            "unit": 21600000,
+            "days": 2
+          },
+          {
+            "concept": "Producción de contenido audiovisual y edición para redes",
+            "qty": 1,
+            "unit": 5350000
+          },
+          {
+            "concept": "Ingeniería de sonido y coordinación técnica general",
+            "qty": 1,
+            "unit": 3850000
+          }
+        ]
+      },
+      {
+        "id": "escenografia",
+        "name": "Escenografía, Ambientación & Señalética",
+        "lines": [
+          {
+            "concept": "Escenografía y ambientación del recinto (tierra, río, fuego, viento)",
+            "qty": 1,
+            "unit": 11550000
+          },
+          {
+            "concept": "Señalética y wayfinding (accesos, sectores, escenarios)",
+            "qty": 1,
+            "unit": 4600000
+          },
+          {
+            "concept": "Gráfica y branding del festival (banderas, telones, arcos)",
+            "qty": 1,
+            "unit": 5000000
+          },
+          {
+            "concept": "Mobiliario y ambientación de zonas de descanso",
+            "qty": 1,
+            "unit": 3500000
+          }
+        ]
+      },
+      {
+        "id": "gastronomia",
+        "name": "Aldea Gastronómica",
+        "lines": [
+          {
+            "concept": "Diseño y montaje de aldea gastronómica (infraestructura, carpas, mesas)",
+            "qty": 1,
+            "unit": 9200000
+          },
+          {
+            "concept": "Curatoría y coordinación de cocinerías regionales y food trucks",
+            "qty": 20,
+            "unit": 400000,
+            "note": "20 espacios, incluye conexión básica"
+          },
+          {
+            "concept": "Servicios básicos para stands (electricidad, agua, gas)",
+            "qty": 1,
+            "unit": 4250000
+          },
+          {
+            "concept": "Ambientación fogón central Raíces",
+            "qty": 1,
+            "unit": 3100000
+          }
+        ]
+      },
+      {
+        "id": "marca",
+        "name": "Activaciones de Marca del Patrocinador",
+        "lines": [
+          {
+            "concept": "Diseño y fabricación de stand experiencial del patrocinador",
+            "qty": 1,
+            "unit": 9200000
+          },
+          {
+            "concept": "Producción e integración de la activación en el Fogón Raíces",
+            "qty": 1,
+            "unit": 5000000
+          },
+          {
+            "concept": "Personal y anfitriones de activación de marca",
+            "qty": 16,
+            "unit": 100000,
+            "days": 2
+          },
+          {
+            "concept": "Producción audiovisual de la activación de marca",
+            "qty": 1,
+            "unit": 3500000
+          }
+        ]
+      },
+      {
+        "id": "seguridad",
+        "name": "Seguridad, Control de Accesos & Aforo",
+        "lines": [
+          {
+            "concept": "Guardias de seguridad OS-10",
+            "qty": 180,
+            "unit": 100000,
+            "days": 2,
+            "note": "Turnos para 12.000 pax/día"
+          },
+          {
+            "concept": "Supervisores y coordinación de seguridad",
+            "qty": 10,
+            "unit": 100000,
+            "days": 2
+          },
+          {
+            "concept": "Control de accesos, torniquetes y pulseras RFID",
+            "qty": 1,
+            "unit": 7700000
+          },
+          {
+            "concept": "Personal de control de aforo por zona",
+            "qty": 30,
+            "unit": 100000,
+            "days": 2
+          },
+          {
+            "concept": "Servicios médicos, paramédicos y ambulancias",
+            "qty": 1,
+            "unit": 9200000,
+            "days": 2
+          },
+          {
+            "concept": "Plan de evacuación, brigadas de emergencia y prevencionista de riesgos",
+            "qty": 1,
+            "unit": 6200000
+          },
+          {
+            "concept": "Vallado perimetral y control de recinto",
+            "qty": 1,
+            "unit": 5350000
+          },
+          {
+            "concept": "CCTV y monitoreo del recinto",
+            "qty": 1,
+            "unit": 3850000
+          }
+        ]
+      },
+      {
+        "id": "logistica",
+        "name": "Baños, Limpieza, Energía & Logística",
+        "lines": [
+          {
+            "concept": "Baños químicos (incluye unidades accesibles)",
+            "qty": 80,
+            "unit": 100000,
+            "days": 2
+          },
+          {
+            "concept": "Generadores de energía redundantes (recinto + escenarios)",
+            "qty": 1,
+            "unit": 13900000
+          },
+          {
+            "concept": "Agua potable y puntos de hidratación",
+            "qty": 1,
+            "unit": 3500000
+          },
+          {
+            "concept": "Limpieza y retiro de residuos (2 jornadas + post-evento)",
+            "qty": 1,
+            "unit": 6200000
+          },
+          {
+            "concept": "Logística de transporte, bodegaje y montaje/desmontaje",
+            "qty": 1,
+            "unit": 7700000
+          },
+          {
+            "concept": "Combustible y mantención de generadores",
+            "qty": 1,
+            "unit": 3100000,
+            "days": 2
+          }
+        ]
+      },
+      {
+        "id": "permisos",
+        "name": "Permisos, Seguros & Gestión Regulatoria",
+        "lines": [
+          {
+            "concept": "Arriendo Parque Bicentenario de Concepción (2 días + montaje/desmontaje)",
+            "qty": 1,
+            "unit": 7350000
+          },
+          {
+            "concept": "Permiso municipal y coordinación con Delegación Presidencial (ex-Intendencia)",
+            "qty": 1,
+            "unit": 2150000
+          },
+          {
+            "concept": "Autorización sanitaria (Seremi de Salud)",
+            "qty": 1,
+            "unit": 1400000
+          },
+          {
+            "concept": "Permiso e inspección de Bomberos",
+            "qty": 1,
+            "unit": 950000
+          },
+          {
+            "concept": "Certificación SEC (instalaciones eléctricas y generadores)",
+            "qty": 1,
+            "unit": 1700000
+          },
+          {
+            "concept": "Seguros de responsabilidad civil y accidentes personales",
+            "qty": 1,
+            "unit": 5000000,
+            "note": "Cobertura 24.000 asistencias totales"
+          }
+        ]
+      },
+      {
+        "id": "contingencia",
+        "name": "Plan de Contingencia Climática & Sostenibilidad",
+        "lines": [
+          {
+            "concept": "Estructuras de resguardo climático (carpas/toldos adicionales)",
+            "qty": 1,
+            "unit": 7350000
+          },
+          {
+            "concept": "Servicio de meteorología en sitio y protocolo de suspensión",
+            "qty": 1,
+            "unit": 2750000
+          },
+          {
+            "concept": "Refuerzo de anclajes y estudio de vientos para escenarios",
+            "qty": 1,
+            "unit": 3100000
+          },
+          {
+            "concept": "Plan de sostenibilidad (reciclaje, puntos limpios, compensación de huella)",
+            "qty": 1,
+            "unit": 4250000
+          },
+          {
+            "concept": "Stock de contingencia (repuestos técnicos, equipos backup)",
+            "qty": 1,
+            "unit": 2750000
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "name": "Versión Esencial",
+        "deltaPct": -0.18,
+        "note": "Reduce a un solo eje técnico compartido entre escenarios, aldea gastronómica más compacta y transmisión en formato simplificado, manteniendo seguridad y aforo íntegros."
+      },
+      {
+        "name": "Versión Signature",
+        "deltaPct": 0.15,
+        "note": "Suma artista headliner de mayor formato, pantallas LED ampliadas, drones de espectáculo aéreo y experiencia VIP en la activación de marca."
+      }
+    ]
+  },
+  "team": [
+    {
+      "role": "Producción general",
+      "name": "Matías Fuentes",
+      "bio": "Eventos masivos +15.000 personas y festivales al aire libre."
+    },
+    {
+      "role": "Dirección creativa y curatoría",
+      "name": "Valentina Rojas",
+      "bio": "Contenidos, cartel y experiencia de festival."
+    },
+    {
+      "role": "Dirección técnica",
+      "name": "Ignacio Soto",
+      "bio": "Audio, LED, transmisión y show control multi-escenario."
+    },
+    {
+      "role": "Jefatura de seguridad y aforo",
+      "name": "Daniela Pizarro",
+      "bio": "Planes de seguridad y evacuación aprobables por la autoridad."
+    },
+    {
+      "role": "Coordinación de permisos",
+      "name": "Camila Herrera",
+      "bio": "Municipio, Delegación Presidencial, Salud, Bomberos y SEC."
+    }
+  ],
+  "timeline": [
+    {
+      "phase": "Concepto & curatoría",
+      "weeks": "S1–S4",
+      "tasks": [
+        "Cartel y guion",
+        "Concepto escenográfico",
+        "Validación con la Corporación"
+      ]
+    },
+    {
+      "phase": "Preproducción & permisos",
+      "weeks": "S5–S12",
+      "tasks": [
+        "Ingeniería de recinto",
+        "Plan de seguridad y aforo",
+        "Permisos y seguros",
+        "Contratación de artistas"
+      ]
+    },
+    {
+      "phase": "Producción & fabricación",
+      "weeks": "S13–S18",
+      "tasks": [
+        "Escenarios y escenografía",
+        "Contratos técnicos",
+        "Aldea gastronómica y activaciones"
+      ]
+    },
+    {
+      "phase": "Montaje & marcha blanca",
+      "weeks": "S19",
+      "tasks": [
+        "Montaje de recinto",
+        "Pruebas técnicas y de sonido",
+        "Simulacro de evacuación"
+      ]
+    },
+    {
+      "phase": "Festival",
+      "weeks": "S19",
+      "tasks": [
+        "Operación 2 jornadas",
+        "Seguridad y control de aforo",
+        "Transmisión en vivo",
+        "Contingencia climática"
+      ]
+    },
+    {
+      "phase": "Desmontaje & cierre",
+      "weeks": "S20",
+      "tasks": [
+        "Desmontaje y restitución del parque",
+        "Informe y KPIs",
+        "Gestión de residuos y sostenibilidad"
+      ]
+    }
+  ],
+  "differentiators": [
+    {
+      "title": "Especialistas en evento masivo",
+      "desc": "Seguridad, aforo y evacuación como parte del diseño, no como anexo."
+    },
+    {
+      "title": "Curatoría con identidad del sur",
+      "desc": "Cartel y experiencia enraizados en la música y las culturas del Biobío."
+    },
+    {
+      "title": "Producción integral bajo un responsable",
+      "desc": "Creatividad, técnica, gastronomía, permisos y seguridad en un solo equipo."
+    },
+    {
+      "title": "Sostenibilidad y contingencia climática",
+      "desc": "Gestión de residuos, energía eficiente y plan ante lluvia/viento de verano austral."
+    }
+  ],
+  "contact": {
+    "name": "Federico — WeAreVision",
+    "email": "federico@wearevision.cl",
+    "phone": "+56 2 0000 0000",
+    "org": "WeAreVision"
+  }
+}
