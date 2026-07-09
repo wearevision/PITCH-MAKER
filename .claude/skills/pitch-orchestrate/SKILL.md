@@ -21,6 +21,29 @@ Rol: Orquestador (CEO en `gstack-process`). Dueño del brief, reparte trabajo, e
 6. **Ship** — desplegar microsite (Vercel) + deck a Express/PPTX. Entregar URL + archivos.
 7. **Reflect** — nota caveman.
 
+## Pipeline reutilizable (workflow + assemble)
+
+Para arrancar una licitación nueva de punta a punta:
+
+1. Crear las bases en `briefs/LIC-XXXX.md` (o pegar el RFP).
+2. Copiar el shell y editar meta/brand/program/team/timeline/differentiators/contact:
+   ```
+   cp proposals/_template/shell.json proposals/<slug>/shell.json
+   ```
+3. Correr el pipeline multiagéntico (genera brief+concept+budget+scenography con los agentes pitch-*):
+   ```
+   Workflow({ name: 'pitch-pipeline', args: { brief: 'briefs/LIC-XXXX.md', referencial: '<techo IVA incl.>' } })
+   ```
+4. Guardar las 4 secciones devueltas en `proposals/<slug>/sections/{brief,concept,budget,scenography}.json`.
+5. Ensamblar (limpia entidades + valida):
+   ```
+   node engine/assemble.js --out proposals/<slug>/proposal.json --shell proposals/<slug>/shell.json \
+     --brief proposals/<slug>/sections/brief.json --concept proposals/<slug>/sections/concept.json \
+     --budget proposals/<slug>/sections/budget.json --scenography proposals/<slug>/sections/scenography.json
+   ```
+6. Build: `node engine/build.js proposals/<slug>/proposal.json`.
+7. **Review**: confirmar que el total del presupuesto cae DENTRO del referencial (el agente ya apunta a eso; si no, ajustar líneas). Verificar export Express y render 3D.
+
 ## Eficiencia en tokens
 
 - **Haiku** (barato, mecánico): extracción de bases, redacción de líneas de presupuesto, normalización de zonas, chequeos de validación, formateo. Tareas con formato claro y poco juicio.

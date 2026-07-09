@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "slug": "mi-propuesta",
+    "client": "Cliente",
+    "project": "Nombre del proyecto",
+    "tender": { "id": "LIC-XXXX", "entity": "Entidad convocante", "dueDate": "YYYY-MM-DD" },
+    "currency": "CLP",
+    "date": "YYYY-MM-DD",
+    "version": "v1.0"
+  },
+  "brand": {
+    "name": "Marca",
+    "tagline": "Bajada de marca",
+    "colors": {
+      "bg": "#0A0E1A", "bgAlt": "#121829", "ink": "#F4F1EA", "inkSoft": "#9AA3B2",
+      "line": "#232B40", "primary": "#E7C978", "secondary": "#E8517A", "accent": "#5BD1C4", "good": "#4BD07E"
+    },
+    "radius": 18
+  },
+  "program": [
+    { "time": "00:00", "title": "Hito", "desc": "Descripción del bloque." }
+  ],
+  "team": [
+    { "role": "Rol", "name": "Nombre", "bio": "Una línea de antecedentes." }
+  ],
+  "timeline": [
+    { "phase": "Fase", "weeks": "S1–S4", "tasks": ["Tarea 1", "Tarea 2"] }
+  ],
+  "differentiators": [
+    { "title": "Diferenciador", "desc": "Por qué nos elige el evaluador." }
+  ],
+  "contact": {
+    "name": "Nombre — WeAreVision",
+    "email": "federico@wearevision.cl",
+    "phone": "+56 2 0000 0000",
+    "org": "WeAreVision"
+  }
+}

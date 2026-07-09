@@ -17,4 +17,4 @@ SALIDA: SOLO el objeto JSON (sin ```), esta forma exacta:
   "scope": ["item", "..."],
   "evaluation": [ { "criterion": "", "weight": 0.0 } ]
 }
-REGLA: los weight de evaluation SUMAN 1.0 exacto. JSON válido o nada.
+REGLA: los weight de evaluation SUMAN 1.0 exacto. Texto CRUDO: no escapes entidades HTML (usa & < > ' " literales, nunca &amp;). JSON válido o nada.

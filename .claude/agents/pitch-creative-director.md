@@ -21,4 +21,4 @@ SALIDA: SOLO JSON (sin ```), forma exacta:
   ],
   "narrative": ["Momento 1 — ...", "Momento 2 — ...", "..."]
 }
-REGLA: exactamente 4 pillars. narrative = recorrido en orden. JSON válido o nada.
+REGLA: exactamente 4 pillars. narrative = recorrido en orden. Texto CRUDO: no escapes entidades HTML (usa & < > ' " literales, nunca &amp;). JSON válido o nada.
