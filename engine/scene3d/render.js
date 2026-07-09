@@ -289,6 +289,16 @@ function boot(THREE, OrbitControls){
   controls.autoRotate = true;
   controls.autoRotateSpeed = 0.6;
 
+  // Vista fija vía URL (para exportar renders): ?rot=0 desactiva auto-rotación;
+  // ?cam=x,y,z fija la posición de cámara en metros.
+  const _p = new URLSearchParams(location.search);
+  if (_p.get('rot') === '0') controls.autoRotate = false;
+  const _cam = _p.get('cam');
+  if (_cam) {
+    const c = _cam.split(',').map(Number);
+    if (c.length === 3 && c.every(Number.isFinite)) camera.position.set(c[0], c[1], c[2]);
+  }
+
   // ---- Iluminación ----
   scene.add(new THREE.AmbientLight(0xffffff, 0.55));
   scene.add(new THREE.HemisphereLight(0xbfd0ff, 0x0a0a12, 0.5));
@@ -488,6 +498,7 @@ function boot(THREE, OrbitControls){
 
   // ---- Controles UI ----
   const btnRotate = document.getElementById('btnRotate');
+  btnRotate.dataset.on = String(controls.autoRotate); // refleja el estado real (?rot=0)
   btnRotate.addEventListener('click', () => {
     controls.autoRotate = !controls.autoRotate;
     btnRotate.dataset.on = String(controls.autoRotate);

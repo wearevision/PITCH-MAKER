@@ -35,3 +35,16 @@ node engine/build.js proposals/<slug>/proposal.json
 node engine/serve.js proposals/<slug>/dist   # http://localhost:5173/scene3d/index.html
 ```
 Órbita con mouse. Cotejar dimensiones vs. capacidad (1.200 pax → circulación suficiente).
+
+## Exportar renders (imágenes fijas)
+
+La escena acepta parámetros de URL para vistas fijas (útil para capturar stills):
+- `?rot=0` desactiva la auto-rotación.
+- `?cam=x,y,z` fija la posición de cámara en metros.
+
+Ej. de captura con Chromium headless (guardar en `proposals/<slug>/renders/`):
+```
+chromium --headless --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader \
+  --window-size=1600,1000 --virtual-time-budget=9000 \
+  --screenshot=render.png "http://localhost:5173/scene3d/index.html?rot=0&cam=36,26,40"
+```
