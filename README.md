@@ -44,6 +44,17 @@ npm run serve        # servidor estático de previsualización
 
 El build escribe todos los artefactos en `proposals/<slug>/dist/` (ignorado por git) y genera un `index.html` raíz con enlaces a cada uno.
 
+### Deploy del microsite (Vercel)
+
+El repo incluye `vercel.json` (build sin dependencias). Para publicar la propuesta como sitio live:
+
+```bash
+npx vercel          # preview
+npx vercel --prod   # producción
+```
+
+Vercel ejecuta `node engine/build.js …` y sirve `proposals/nua-aniversario-25/dist/`. El microsite embebe la escenografía 3D y enlaza el deck (Adobe Express) y el presupuesto.
+
 ## 📦 Los 4 entregables
 
 | Artefacto | Salida | Renderer | Tecnología |
