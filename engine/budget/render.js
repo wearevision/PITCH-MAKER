@@ -5,6 +5,7 @@
 import { money, pct, round } from '../lib/money.js';
 import { esc } from '../lib/html.js';
 import { toCssVars } from '../lib/brand.js';
+import { buildXlsx } from '../lib/xlsx.js';
 
 /**
  * @param {import('../lib/schema.js').Proposal} proposal
@@ -18,8 +19,40 @@ export function renderBudget(proposal, ctx) {
   return {
     'budget/presupuesto.html': renderHtml(proposal, budget, brand, cur),
     'budget/presupuesto.csv': renderCsv(proposal, budget, cur),
+    'budget/presupuesto.xlsx': renderXlsx(proposal, budget, cur),
     'budget/budget.computed.json': JSON.stringify(budget, null, 2),
   };
+}
+
+/** Planilla XLSX (zero-dep). Montos como celdas numéricas para sumar/formatear en Excel. */
+function renderXlsx(proposal, budget, cur) {
+  const rows = [];
+  const cliente = proposal.meta?.client || '';
+  const proyecto = proposal.meta?.project || '';
+  rows.push([`Presupuesto — ${cliente}`, proyecto]);
+  rows.push([`Moneda: ${cur}`, `Licitación: ${proposal.meta?.tender?.id || ''}`]);
+  rows.push([]);
+  rows.push(['Rubro', 'Concepto', 'Cantidad', 'Unitario', 'Total']);
+  for (const g of budget.groups || []) {
+    for (const l of g.lines || []) {
+      rows.push([g.name, l.concept, l.qty ?? 1, l.unit ?? 0, l.total ?? 0]);
+    }
+    rows.push([g.name, `Subtotal ${g.name}`, '', '', g.subtotal]);
+  }
+  rows.push([]);
+  rows.push(['', 'Subtotal líneas', '', '', budget.linesSubtotal]);
+  if (budget.contingencyRate) rows.push(['', `Contingencia (${pct(budget.contingencyRate)})`, '', '', budget.contingencyAmt]);
+  if (budget.marginRate) rows.push(['', `Margen (${pct(budget.marginRate)})`, '', '', budget.marginAmt]);
+  rows.push(['', 'Neto', '', '', budget.net]);
+  if (budget.iva) rows.push(['', `IVA (${pct(budget.ivaRate)})`, '', '', budget.ivaAmt]);
+  rows.push(['', 'TOTAL', '', '', budget.total]);
+  if (budget.perPax != null) rows.push(['', 'Neto por persona', '', '', budget.perPax]);
+  if (budget.options && budget.options.length) {
+    rows.push([]);
+    rows.push(['Opción', 'Nota', 'Delta', 'Neto', 'Total']);
+    for (const o of budget.options) rows.push([o.name, o.note || '', pct(o.deltaPct), o.net, o.total]);
+  }
+  return buildXlsx(rows, 'Presupuesto');
 }
 
 /* ---------------------------------------------------------------- utilidades */

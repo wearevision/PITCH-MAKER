@@ -7,6 +7,7 @@ import { esc } from '../engine/lib/html.js';
 import { resolveBrand, toCssVars, brandGradient } from '../engine/lib/brand.js';
 import { validate, loadProposal } from '../engine/lib/schema.js';
 import { computeBudget } from '../engine/budget/model.js';
+import { buildXlsx } from '../engine/lib/xlsx.js';
 
 const DEMO = 'proposals/nua-aniversario-25/proposal.json';
 
@@ -71,6 +72,17 @@ test('budget: computeBudget calcula totales determinísticos de la demo', async 
   // opciones derivan del total
   const esencial = c.options.find((o) => /Esencial/.test(o.name));
   assert.equal(esencial.total, round(459156264 * 0.82, 0));
+});
+
+test('xlsx: buildXlsx produce un ZIP/OOXML válido con celda numérica', () => {
+  const buf = buildXlsx([['A', 'B'], ['texto', 1234567]], 'Presupuesto');
+  assert.ok(Buffer.isBuffer(buf) && buf.length > 200);
+  // firma ZIP local file header "PK\x03\x04"
+  assert.equal(buf.readUInt32LE(0), 0x04034b50);
+  // EOCD "PK\x05\x06" al final
+  const eocd = buf.subarray(buf.length - 22);
+  assert.equal(eocd.readUInt32LE(0), 0x06054b50);
+  assert.equal(eocd.readUInt16LE(10), 5, '5 partes en el paquete OOXML');
 });
 
 test('budget: sin IVA cuando iva:false', () => {
