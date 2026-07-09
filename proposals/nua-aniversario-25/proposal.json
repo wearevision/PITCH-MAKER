@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "slug": "nua-aniversario-25",
+    "client": "NÜA",
+    "project": "Gala 25 Aniversario + Experiencia Inmersiva de Marca",
+    "tender": {
+      "id": "LIC-2026-NUA-025",
+      "entity": "NÜA Retail SpA",
+      "dueDate": "2026-08-15"
+    },
+    "currency": "CLP",
+    "date": "2026-07-09",
+    "version": "v1.0"
+  },
+  "brand": {
+    "name": "NÜA",
+    "tagline": "25 años cruzando umbrales",
+    "colors": {
+      "bg": "#0A0E1A",
+      "bgAlt": "#121829",
+      "ink": "#F4F1EA",
+      "inkSoft": "#9AA3B2",
+      "line": "#232B40",
+      "primary": "#E7C978",
+      "secondary": "#E8517A",
+      "accent": "#5BD1C4",
+      "good": "#4BD07E"
+    },
+    "radius": 20
+  },
+  "brief": {
+    "summary": "NÜA cumple 25 años y licita la producción integral de su gala de aniversario más una experiencia inmersiva de marca para 1.200 invitados —colaboradores, socios estratégicos, prensa y autoridades— en Espacio Riesco, Santiago, la noche del 14 de noviembre de 2026. La licitación exige dirección creativa, escenografía, audiovisual, catering, talento, permisos y un plan de contingencia integral.",
+    "objectives": [
+      "Consagrar el hito de los 25 años como un momento cultural de marca, no un evento corporativo más.",
+      "Fortalecer el orgullo de pertenencia de los colaboradores y el vínculo con socios estratégicos.",
+      "Generar cobertura de prensa y contenido para redes con un hito visual memorable.",
+      "Lanzar y activar el nuevo manifiesto de marca NÜA frente a toda su comunidad.",
+      "Entregar una experiencia impecable en producción, seguridad y hospitalidad."
+    ],
+    "audience": {
+      "size": 1200,
+      "profile": "Colaboradores (60%), socios y proveedores estratégicos (25%), prensa y autoridades (15%)."
+    },
+    "venue": {
+      "name": "Espacio Riesco",
+      "city": "Santiago",
+      "date": "2026-11-14",
+      "format": "Recorrido inmersivo walk-through + gala nocturna envolvente 360°"
+    },
+    "scope": [
+      "Dirección creativa, concepto y guion de experiencia",
+      "Escenografía, ambientación y mobiliario",
+      "Escenario principal, estructuras y rigging",
+      "Audiovisual, pantallas LED, video mapping y contenido",
+      "Iluminación escénica y sonido (line-array + espacial)",
+      "Catering y banquetería para 1.200 personas",
+      "Talento, animación y show en vivo",
+      "RRHH, anfitrionas, seguridad y coordinación",
+      "Gestión de permisos, seguros y logística",
+      "Plan de contingencia y sostenibilidad"
+    ],
+    "evaluation": [
+      { "criterion": "Propuesta creativa y concepto", "weight": 0.30 },
+      { "criterion": "Factibilidad técnica y de producción", "weight": 0.25 },
+      { "criterion": "Presupuesto y eficiencia", "weight": 0.25 },
+      { "criterion": "Experiencia del equipo y antecedentes", "weight": 0.12 },
+      { "criterion": "Sostenibilidad y plan de contingencia", "weight": 0.08 }
+    ]
+  },
+  "concept": {
+    "name": "NÜA 25 · El Umbral",
+    "statement": "Un rito de paso de 25 años. Los invitados cruzan un umbral de luz que los transporta desde la memoria —dónde empezó NÜA— hacia el futuro —hacia dónde va—, en un recorrido inmersivo que culmina en una gala envolvente de 360° donde 1.200 voces estrenan el nuevo manifiesto de marca.",
+    "pillars": [
+      { "title": "Umbral de Luz", "desc": "Túnel cinético de acceso: 25 arcos de luz, uno por cada año, con video mapping y sonido espacial que reacciona al paso de los invitados.", "icon": "◈" },
+      { "title": "Gala 360°", "desc": "Escenario circular central con público envolvente y pantallas suspendidas: una experiencia sin 'atrás', donde nadie es espectador de segunda fila.", "icon": "⭓" },
+      { "title": "Memoria Viva", "desc": "Activaciones sensoriales que narran 25 años de NÜA con archivo, aroma, textura y voces reales de colaboradores.", "icon": "❖" },
+      { "title": "Manifiesto Futuro", "desc": "Reveal del nuevo manifiesto de marca con mapping envolvente y un momento coral de 1.200 voces al unísono.", "icon": "✦" }
+    ],
+    "narrative": [
+      "Llegada — La fachada de Espacio Riesco se transforma con luz; una alfombra de proyección guía hacia el Umbral.",
+      "Umbral de Luz — 25 arcos se encienden en secuencia al avanzar; cada arco proyecta un año de historia.",
+      "Memoria Viva — El recorrido desemboca en cápsulas sensoriales: objetos, sonidos y aromas de cada era de NÜA.",
+      "Gala 360° — Se abre el salón central: escenario circular, pantallas suspendidas, cena servida envolvente.",
+      "Manifiesto Futuro — Mapping total, coro de 1.200 voces y reveal del nuevo manifiesto de marca.",
+      "Celebración — Show en vivo y cierre con DJ; la memoria se vuelve fiesta."
+    ]
+  },
+  "program": [
+    { "time": "18:30", "title": "Recepción y acreditación", "desc": "Cóctel de bienvenida en explanada; activación de fachada con luz." },
+    { "time": "19:15", "title": "Apertura del Umbral", "desc": "Los primeros grupos cruzan el túnel cinético de 25 arcos." },
+    { "time": "19:45", "title": "Recorrido Memoria Viva", "desc": "Cápsulas sensoriales de los 25 años de NÜA." },
+    { "time": "20:30", "title": "Ingreso a la Gala 360°", "desc": "Apertura del salón central y ubicación en mesas." },
+    { "time": "20:45", "title": "Palabras y brindis", "desc": "Bienvenida de la dirección y brindis de aniversario." },
+    { "time": "21:15", "title": "Cena servida", "desc": "Servicio de cena gala para 1.200 personas." },
+    { "time": "22:15", "title": "Reveal del Manifiesto Futuro", "desc": "Mapping envolvente + momento coral de 1.200 voces." },
+    { "time": "22:45", "title": "Show en vivo", "desc": "Presentación musical headliner sobre escenario circular." },
+    { "time": "23:30", "title": "Celebración y DJ", "desc": "Cierre de baile hasta las 00:30." }
+  ],
+  "scenography": {
+    "summary": "Planta de ~50 × 40 m organizada como un recorrido: acceso por el Umbral de Luz (túnel de 25 arcos) hacia zonas de Memoria Viva, desembocando en el gran salón de la Gala 360° con escenario circular central y anillo de pantallas suspendidas. Zonas de lounge, barras y una instalación central de marca completan el circuito.",
+    "zones": [
+      { "id": "umbral", "name": "Umbral de Luz (25 arcos)", "kind": "entrance", "desc": "Túnel cinético de acceso", "pos": [-19, 0, 0], "size": [4, 4.5, 16], "color": "#E7C978" },
+      { "id": "stage", "name": "Escenario circular 360°", "kind": "stage", "desc": "Tarima central envolvente", "pos": [0, 0, 0], "size": [14, 1.2, 14], "color": "#E8517A" },
+      { "id": "screens", "name": "Anillo de pantallas suspendidas", "kind": "screen", "desc": "LED 360° sobre escenario", "pos": [0, 6.5, 0], "size": [12, 3.5, 12], "color": "#5BD1C4" },
+      { "id": "memoria-a", "name": "Cápsula Memoria — Orígenes", "kind": "installation", "desc": "1999–2008", "pos": [-9, 0, -12], "size": [6, 3, 5], "color": "#5BD1C4" },
+      { "id": "memoria-b", "name": "Cápsula Memoria — Expansión", "kind": "installation", "desc": "2009–2018", "pos": [9, 0, -12], "size": [6, 3, 5], "color": "#5BD1C4" },
+      { "id": "lounge-a", "name": "Lounge socios", "kind": "lounge", "desc": "Zona VIP de socios", "pos": [-14, 0, 11], "size": [8, 3, 7], "color": "#9AA3B2" },
+      { "id": "lounge-b", "name": "Lounge colaboradores", "kind": "lounge", "desc": "Estar y encuentro", "pos": [14, 0, 11], "size": [8, 3, 7], "color": "#9AA3B2" },
+      { "id": "bar-1", "name": "Barra central de coctelería", "kind": "bar", "desc": "Servicio de bebidas", "pos": [0, 0, 15], "size": [6, 2.4, 3], "color": "#E7C978" },
+      { "id": "manifiesto", "name": "Tótem Manifiesto Futuro", "kind": "stand", "desc": "Instalación de reveal de marca", "pos": [0, 0, -15], "size": [5, 5, 3], "color": "#E8517A" }
+    ]
+  },
+  "budget": {
+    "currency": "CLP",
+    "iva": true,
+    "ivaRate": 0.19,
+    "contingency": 0.05,
+    "margin": 0.12,
+    "groups": [
+      {
+        "id": "direccion",
+        "name": "Dirección & Producción",
+        "lines": [
+          { "concept": "Dirección creativa y concepto (fee proyecto)", "qty": 1, "unit": 12000000 },
+          { "concept": "Productor general", "qty": 1, "unit": 6500000 },
+          { "concept": "Jefatura de producción", "qty": 1, "unit": 4800000 },
+          { "concept": "Coordinadores de producción", "qty": 3, "unit": 1600000 },
+          { "concept": "Diseño y dirección de arte", "qty": 1, "unit": 5200000 }
+        ]
+      },
+      {
+        "id": "escenografia",
+        "name": "Escenografía & Ambientación",
+        "lines": [
+          { "concept": "Umbral de Luz — 25 arcos cinéticos (fabricación + montaje)", "qty": 1, "unit": 28000000, "note": "Estructura, motorización y acabados" },
+          { "concept": "Escenario circular central + tarima envolvente", "qty": 1, "unit": 16000000 },
+          { "concept": "Ambientación zonas inmersivas (Memoria Viva)", "qty": 1, "unit": 9500000 },
+          { "concept": "Mobiliario y lounges (arriendo)", "qty": 1, "unit": 7200000 },
+          { "concept": "Gráfica, señalética y branding de espacio", "qty": 1, "unit": 3800000 }
+        ]
+      },
+      {
+        "id": "audiovisual",
+        "name": "Audiovisual & Mapping",
+        "lines": [
+          { "concept": "Anillo de pantallas LED suspendidas 360° (arriendo + rigging)", "qty": 1, "unit": 22000000 },
+          { "concept": "Proyección y video mapping envolvente", "qty": 1, "unit": 14000000 },
+          { "concept": "Producción de contenido audiovisual (25 años + manifiesto)", "qty": 1, "unit": 11500000 },
+          { "concept": "Operación técnica AV (jornadas de montaje y show)", "qty": 1, "unit": 6800000 }
+        ]
+      },
+      {
+        "id": "ilum-sonido",
+        "name": "Iluminación & Sonido",
+        "lines": [
+          { "concept": "Sistema de iluminación escénica + consola y control", "qty": 1, "unit": 15500000 },
+          { "concept": "Sonido line-array + monitoreo (1.200 pax)", "qty": 1, "unit": 9800000 },
+          { "concept": "Sonido espacial inmersivo (Umbral)", "qty": 1, "unit": 4200000 }
+        ]
+      },
+      {
+        "id": "catering",
+        "name": "Catering & Banquetería",
+        "lines": [
+          { "concept": "Cena gala servida", "qty": 1200, "unit": 42000, "note": "Por persona, 3 tiempos" },
+          { "concept": "Barras y coctelería de bienvenida", "qty": 1, "unit": 8500000 },
+          { "concept": "Menaje, cristalería y montaje de mesas", "qty": 1, "unit": 6200000 }
+        ]
+      },
+      {
+        "id": "talento",
+        "name": "Talento & Animación",
+        "lines": [
+          { "concept": "Conducción / host", "qty": 1, "unit": 4500000 },
+          { "concept": "Show musical en vivo (headliner)", "qty": 1, "unit": 18000000 },
+          { "concept": "Performers Umbral (elenco)", "qty": 1, "unit": 5600000 },
+          { "concept": "DJ y cierre de baile", "qty": 1, "unit": 3200000 }
+        ]
+      },
+      {
+        "id": "rrhh",
+        "name": "RRHH & Operación",
+        "lines": [
+          { "concept": "Staff de producción y montaje (jornadas)", "qty": 1, "unit": 9400000 },
+          { "concept": "Anfitrionas y protocolo", "qty": 40, "unit": 95000 },
+          { "concept": "Seguridad y control de acceso", "qty": 1, "unit": 5800000 },
+          { "concept": "Aseo, limpieza y post-evento", "qty": 1, "unit": 2600000 }
+        ]
+      },
+      {
+        "id": "permisos",
+        "name": "Permisos, Seguros & Logística",
+        "lines": [
+          { "concept": "Arriendo Espacio Riesco (salón + áreas de producción)", "qty": 1, "unit": 14500000 },
+          { "concept": "Permisos municipales, sanitarios y autorizaciones", "qty": 1, "unit": 2400000 },
+          { "concept": "Seguros de responsabilidad civil y montaje", "qty": 1, "unit": 3100000 },
+          { "concept": "Logística, transporte y bodegaje", "qty": 1, "unit": 4600000 },
+          { "concept": "Energía y generadores de respaldo", "qty": 1, "unit": 3900000 }
+        ]
+      }
+    ],
+    "options": [
+      { "name": "Versión Esencial", "deltaPct": -0.18, "note": "Mantiene el concepto reduciendo escala de mapping y talento." },
+      { "name": "Versión Signature", "deltaPct": 0.15, "note": "Suma drones de interior, artista invitado internacional y escenografía extendida." }
+    ]
+  },
+  "team": [
+    { "role": "Dirección creativa", "name": "Valentina Rojas", "bio": "15 años dirigiendo experiencias de marca y aperturas culturales." },
+    { "role": "Producción general", "name": "Matías Fuentes", "bio": "Productor de eventos masivos y galas corporativas +1.000 pax." },
+    { "role": "Dirección de arte", "name": "Camila Herrera", "bio": "Escenografía inmersiva y diseño espacial." },
+    { "role": "Dirección técnica AV", "name": "Ignacio Soto", "bio": "Mapping, LED y show control." },
+    { "role": "Jefatura de operaciones", "name": "Daniela Pizarro", "bio": "Logística, permisos, seguridad y contingencia." }
+  ],
+  "timeline": [
+    { "phase": "Concepto & diseño", "weeks": "S1–S3", "tasks": ["Guion de experiencia", "Diseño escenográfico", "Renders y validación con cliente"] },
+    { "phase": "Preproducción", "weeks": "S4–S8", "tasks": ["Ingeniería y planos", "Permisos y seguros", "Casting de talento", "Producción de contenido AV"] },
+    { "phase": "Fabricación", "weeks": "S9–S12", "tasks": ["Fabricación de arcos y escenario", "Pruebas de mapping", "Compras y arriendos"] },
+    { "phase": "Montaje", "weeks": "S13", "tasks": ["Montaje escenografía y rigging", "Ensayos técnicos", "Marcha blanca"] },
+    { "phase": "Evento", "weeks": "S13", "tasks": ["Show y operación en vivo", "Coordinación de servicio", "Gestión de contingencia"] },
+    { "phase": "Desmontaje & cierre", "weeks": "S14", "tasks": ["Desmontaje", "Informe post-evento y KPIs", "Reciclaje de materiales"] }
+  ],
+  "differentiators": [
+    { "title": "Concepto inmersivo propio", "desc": "No arrendamos un show: diseñamos un rito de paso hecho a la medida de los 25 años de NÜA." },
+    { "title": "Producción integral bajo un solo responsable", "desc": "Un único equipo responde por creatividad, técnica, catering, permisos y seguridad." },
+    { "title": "Escenario 360° sin filas de segunda", "desc": "Cada uno de los 1.200 invitados vive el momento cumbre desde primera fila." },
+    { "title": "Plan de contingencia y sostenibilidad", "desc": "Redundancia técnica, brigada de emergencia y materiales reutilizables/reciclables." }
+  ],
+  "contact": {
+    "name": "Federico — WeAreVision",
+    "email": "federico@wearevision.cl",
+    "phone": "+56 2 0000 0000",
+    "org": "WeAreVision"
+  }
+}

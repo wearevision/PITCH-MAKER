@@ -1,0 +1,34 @@
+{
+  "name": "pitch-maker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sistema agent-native, multiagéntico y eficiente en tokens para crear propuestas de eventos que ganan licitaciones — presupuesto, deck (Adobe Express/PPTX), escenografía 3D y microsite, desde un único proposal.json.",
+  "bin": {
+    "pitch": "engine/build.js"
+  },
+  "scripts": {
+    "build": "node engine/build.js proposals/nua-aniversario-25/proposal.json",
+    "build:all": "node engine/build.js --all",
+    "validate": "node engine/lib/schema.js proposals/nua-aniversario-25/proposal.json",
+    "serve": "node engine/serve.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "pitch",
+    "licitaciones",
+    "eventos",
+    "propuestas",
+    "presupuesto",
+    "gstack",
+    "caveman",
+    "cavecrew",
+    "multiagent",
+    "token-efficient"
+  ],
+  "license": "UNLICENSED",
+  "author": "WeAreVision"
+}

@@ -1,0 +1,10 @@
+# deps (el proyecto es dependency-free; three.js va por CDN)
+node_modules/
+# sistema
+.DS_Store
+*.log
+npm-debug.log*
+# temporales
+.tmp/
+*.tmp
+# NOTA: proposals/*/dist/ SÍ se versiona (son los entregables demo).
