@@ -50,12 +50,10 @@ export function renderDeck(proposal, ctx) {
     ${meta.version ? absBox(null, 120, { right: 120, width: 500, align: 'right' }, `
       <div style="font:600 22px/1 var(--f-mono);letter-spacing:.2em;color:rgba(10,14,26,.6)">${esc(meta.version)}</div>
     `) : ''}
-    ${absBox(120, 360, { width: 1560 }, `
-      <div style="font:800 128px/.98 var(--f-display);letter-spacing:-.02em;color:#0A0E1A;max-width:1560px">${esc(projectName)}</div>
+    ${absBox(120, 340, { width: 1620 }, `
+      <div style="font:800 116px/1.0 var(--f-display);letter-spacing:-.02em;color:#0A0E1A">${esc(projectName)}</div>
+      ${tagline ? `<div style="margin-top:28px;font:400 40px/1.3 var(--f-body);color:rgba(10,14,26,.82);max-width:1200px">${esc(tagline)}</div>` : ''}
     `)}
-    ${tagline ? absBox(124, 700, { width: 1400 }, `
-      <div style="font:400 40px/1.25 var(--f-body);color:rgba(10,14,26,.82);max-width:1200px">${esc(tagline)}</div>
-    `) : ''}
     ${absBox(120, 900, { width: 1680 }, `
       <div style="display:flex;gap:56px;align-items:flex-end;font:500 24px/1.4 var(--f-body);color:rgba(10,14,26,.78)">
         ${tender.id ? kv('Licitación', tender.id) : ''}

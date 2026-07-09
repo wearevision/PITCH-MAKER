@@ -7,4 +7,7 @@ npm-debug.log*
 # temporales
 .tmp/
 *.tmp
-# NOTA: proposals/*/dist/ SÍ se versiona (son los entregables demo).
+# artefactos generados (reproducibles con `node engine/build.js`)
+proposals/*/dist/
+# infra local
+.vercel/
