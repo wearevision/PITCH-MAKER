@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node engine/build.js proposals/nua-aniversario-25/proposal.json",
+  "outputDirectory": "proposals/nua-aniversario-25/dist",
+  "installCommand": "echo 'sin dependencias'",
+  "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": false
+}
