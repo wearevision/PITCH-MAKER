@@ -19,13 +19,21 @@ export const DEFAULT_BRAND = {
     good: '#3DD68C',
   },
   fonts: {
-    // stacks web-safe: rinden en Adobe Express (CSP bloquea fonts externas) y en todos los navegadores
-    display: "'Helvetica Neue', 'Arial Black', system-ui, sans-serif",
-    body: "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    // Adobe Fonts (Typekit) con fallback web-safe. El <link> del kit sí está permitido en
+    // Adobe Express (a diferencia de otras fonts externas); en navegador carga normal.
+    display: '"termina", "Helvetica Neue", "Arial Black", system-ui, sans-serif',
+    body: '"acumin-pro", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
     mono: "'SF Mono', ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace",
+    kit: 'https://use.typekit.net/bpv7igw.css',
   },
   radius: 18,
 };
+
+/** Devuelve el <link> del kit de Adobe Fonts si el brand (resuelto) define fonts.kit; si no, ''. */
+export function fontKitLink(brand = {}) {
+  const url = resolveBrand(brand).fonts.kit;
+  return url ? `<link rel="stylesheet" href="${url}">` : '';
+}
 
 /** Fusión superficial de brand con defaults (colors/fonts anidados). */
 export function resolveBrand(brand = {}) {

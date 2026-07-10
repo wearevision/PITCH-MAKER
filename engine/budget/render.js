@@ -4,7 +4,7 @@
 
 import { money, pct, round } from '../lib/money.js';
 import { esc } from '../lib/html.js';
-import { toCssVars } from '../lib/brand.js';
+import { toCssVars, fontKitLink } from '../lib/brand.js';
 import { buildXlsx } from '../lib/xlsx.js';
 
 /**
@@ -110,6 +110,7 @@ function renderHtml(proposal, budget, brand, cur) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Presupuesto · ${esc(meta.client || '')} — ${esc(meta.project || '')}</title>
+${fontKitLink(brand)}
 <style>
 ${css}
 </style>

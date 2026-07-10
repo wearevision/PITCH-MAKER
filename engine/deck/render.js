@@ -5,7 +5,7 @@
 
 import { money, pct } from '../lib/money.js';
 import { esc } from '../lib/html.js';
-import { resolveBrand, brandGradient } from '../lib/brand.js';
+import { resolveBrand, brandGradient, fontKitLink } from '../lib/brand.js';
 
 const W = 1920;
 const H = 1080;
@@ -329,6 +329,7 @@ function page(body, brand) {
   return `<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="hz:slide-selector" content=".slide">
+${fontKitLink(brand)}
 <title>${esc((brand.name || 'Deck'))} · Deck</title>
 <style>
   :root{

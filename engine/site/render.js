@@ -5,7 +5,7 @@
 
 import { money, pct } from '../lib/money.js';
 import { esc, attr } from '../lib/html.js';
-import { resolveBrand, toCssVars, brandGradient } from '../lib/brand.js';
+import { resolveBrand, toCssVars, brandGradient, fontKitLink } from '../lib/brand.js';
 
 /**
  * @param {import('../lib/schema.js').Proposal} proposal
@@ -95,6 +95,7 @@ function renderHtml(proposal, budget, brand) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(conceptName)} — ${esc(brandName)}</title>
 <meta name="description" content="${attr(statement.slice(0, 180))}">
+${fontKitLink(brand)}
 <style>
 ${toCssVars(brand)}
 :root{ --grad-brand: ${grad}; }
