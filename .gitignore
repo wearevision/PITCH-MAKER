@@ -1,0 +1,17 @@
+# deps (el proyecto es dependency-free; three.js va por CDN)
+node_modules/
+# sistema
+.DS_Store
+*.log
+npm-debug.log*
+# temporales
+.tmp/
+*.tmp
+# artefactos generados (reproducibles con `node engine/build.js`)
+proposals/*/dist/
+# intermedios del pipeline (secciones de agentes + shell por-propuesta); la SoT es proposal.json
+proposals/*/sections/
+proposals/*/shell.json
+!proposals/_template/shell.json
+# infra local
+.vercel/
