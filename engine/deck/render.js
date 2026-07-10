@@ -341,6 +341,12 @@ ${fontKitLink(brand)}
   body{background:#05070d;font-family:var(--f-body);color:#fff}
   .deck{display:flex;flex-direction:column;align-items:center;gap:32px;padding:32px}
   .slide{flex:0 0 auto;box-shadow:0 30px 80px rgba(0,0,0,.5);border-radius:2px}
+  @page{size:1920px 1080px;margin:0}
+  @media print{
+    body{background:#fff}
+    .deck{gap:0;padding:0}
+    .slide{box-shadow:none;border-radius:0;break-after:page;page-break-after:always}
+  }
 </style>
 <div class="deck">
 ${body}

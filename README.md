@@ -55,6 +55,18 @@ npx vercel --prod   # producción
 
 Vercel ejecuta `node engine/build.js …` y sirve `proposals/nua-aniversario-25/dist/`. El microsite embebe la escenografía 3D y enlaza el deck (Adobe Express) y el presupuesto.
 
+### Paquete de entrega (para mandar al cliente)
+
+Cada propuesta trae un `proposals/<slug>/entrega/` con los archivos listos para enviar: `deck.pdf` (9 láminas), `presupuesto.pdf`, `presupuesto.xlsx` (editable) y `ENTREGA.md` (índice con cifras y enlaces). Los PDF se generan imprimiendo con Chromium headless (el deck usa `@page 1920×1080` → una lámina por página):
+
+```bash
+chromium --headless --no-pdf-header-footer \
+  --print-to-pdf=proposals/<slug>/entrega/deck.pdf \
+  "http://localhost:5173/deck/index.html"
+```
+
+Para PPTX editable: abrir el deck en Adobe Express (link del build/ENTREGA.md) y descargar como PPTX.
+
 ## 📦 Los 4 entregables
 
 | Artefacto | Salida | Renderer | Tecnología |
